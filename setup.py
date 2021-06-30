@@ -86,7 +86,7 @@ setup_args = dict(
             'pytest-asyncio',
             'pytest-timeout',
             'pytest',
-            'mypy',
+            'mypy; implementation_name == "cpython"',
             'pre-commit',
         ],
         'doc': open('docs/requirements.txt').read().splitlines(),
